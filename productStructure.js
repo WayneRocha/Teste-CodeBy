@@ -24,4 +24,5 @@ module.exports = () => {
     
     productsObj[productColor][productSize] += 1;
   });
+  return productsObj;
 }
